@@ -319,6 +319,7 @@ def aprefill():
 prep()
 i = 0
 first_past = False
+
 while (1):
     
     temp = pyautogui.locateOnScreen('load_finished.png', confidence=0.90)
